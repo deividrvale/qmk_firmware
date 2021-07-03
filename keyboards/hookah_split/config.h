@@ -38,6 +38,13 @@
 
 #define UNUSED_PINS
 
+#define TAPPING_TERM 150
+
+#define IGNORE_MOD_TAP_INTERRUPT
+
+#define TAPPING_FORCE_HOLD
+
+#define QMK_KEYS_PER_SCAN 4
 
 #define MASTER_LEFT
 #define SOFT_SERIAL_PIN A15
@@ -45,7 +52,6 @@
 
 /* Debounce reduces chatter (unintended double-presses) - set 0 if debouncing is not needed */
 #define DEBOUNCE 5
-
 
 /* disable these deprecated features by default */
 #define NO_ACTION_MACRO
